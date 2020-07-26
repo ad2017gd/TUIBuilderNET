@@ -72,13 +72,14 @@ Base class for all elements.
 
 ### TUIBuilder.Text 
 > Text(string text)  
+
 Displays text.   
   
 `content` - Contains text to be displayed.
   
 
 ### TUIBuilder.FText 
-> FText(Func<object> ret)  
+> FText(Func<object\> ret)  
 
 Displays text from a function return value. Useful for dynamic text.  
   
@@ -117,7 +118,7 @@ When selected, value can be changed using the left-right arrow keys.
   
 
 ### TUIBuilder.Picker 
-> Picker(IEnumerable<object> options, PickerType pt = PickerType.LIST)  
+> Picker(IEnumerable<object\> options, PickerType pt = PickerType.LIST)  
     
 When selected, selected value can be changed using the left-right arrow keys. 
   
