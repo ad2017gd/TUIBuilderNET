@@ -8,7 +8,7 @@ namespace TUIBuilderNET
     public class TUIBuilder
     {
         public int selection = 0;
-        public int _sizex,_sizey = 0;
+        private int _sizex,_sizey = 0;
         private bool quit = false;
         public Dictionary<string, object> colors = new Dictionary<string, object>();
         private List<TObject> selectable = new List<TObject>();
