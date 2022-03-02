@@ -645,6 +645,13 @@ namespace TUIBuilderNET
             selectable = s;
             return obj;
         }
+        
+        public void AddObjects(TObject[] objs, int pos = -1) // I am a pea-brain so this function returns void - Tech
+        {
+            foreach (TObject obj in objs) {
+                this.AddObject(obj, pos);
+            }
+        }
 
         public void Flush(){
             selectable = new List<TObject>();
